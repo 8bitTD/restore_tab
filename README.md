@@ -14,3 +14,5 @@ cargo run --release
 ・restore_tab.exeの直下にexplorer.txtファイルを作成してパスを記入してください。<br>
 ・restore_tab.exeをダブルクリックするとエクスプローラーが起動して、explorer.txtに記入されているパスをタブで復元します。
  
+## 動作確認
+　Windows11
