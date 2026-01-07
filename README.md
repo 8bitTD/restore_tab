@@ -10,4 +10,7 @@ git clone https://github.com/8bitTD/restore_tab
 cd restore_tab
 cargo run --release
 ```
-
+## 使い方
+・restore_tab.exeの直下にexplorer.txtファイルを作成してパスを記入してください<br>
+・restore_tab.exeをダブルクリックするとエクスプローラが起動して、explorer.txtに記入されているパスをタブで復元します。
+ 
