@@ -1,5 +1,5 @@
 # 概要
-このリポジトリは、Rustで作ったエクスプローラーのタブを復元するツールのリポジトリになります
+このリポジトリは、Rustで作ったエクスプローラーのタブを復元するツールのリポジトリになります。
 
 <img width="848" height="415" alt="image" src="https://github.com/user-attachments/assets/c9868470-0e5d-433c-b278-a9bf252d6230" />
 
