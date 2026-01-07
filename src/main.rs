@@ -2,8 +2,6 @@ use enigo::{
     Direction::{Press, Release},
     Enigo, Key, Keyboard, Settings,
 };
-use std::thread;
-use std::time::Duration;
 use std::io::Read;
 
 fn get_txt() -> Vec<String>{
@@ -21,7 +19,7 @@ fn get_txt() -> Vec<String>{
 }
 
 fn main() {
-    thread::sleep(Duration::from_secs(1));
+    std::thread::sleep(std::time::Duration::from_millis(1000));
     let mut enigo = Enigo::new(&Settings::default()).unwrap();
     let paths = get_txt();
     for (u,p) in paths.iter().enumerate(){
